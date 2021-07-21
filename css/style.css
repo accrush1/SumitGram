@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#fff;
+}
+#section a{
+    text-decoration: none;
+    color:rgb(68, 64, 64)
+}
+header{
+    background-color: rgb(24 13 13);
+}
+
+#main-header a:hover{
+    color:coral;
+}
+.clr{
+    clear:both;
+}
+#main-header{
+    margin:0px;
+    min-height: 60px;
+    padding: 0px;
+}
+
+#main-header h1,#head-links{
+    display: inline;
+    padding-top:12px;
+}
+#main-header h1{
+    width:33.3%;
+    box-sizing: border-box;
+    float:left;
+    text-align: center;
+}
+#main-header #head-links{
+    width:33.3%;
+    box-sizing: border-box;
+    float:right
+}
+
+#head-links{
+    padding-top:15px;
+}
+#head-links a{
+    padding:0px 10px;
+    text-decoration: none;
+}
+#main-header img{
+    padding-top: 0px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+body{
+    background-color: rgb(68, 64, 64);
+}
+
+section{
+    width:60%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.likeshare{
+    width: 20px;
+    height: 20px;
+}
+#section h1,.postImages,.like{
+    margin:30px;
+}
